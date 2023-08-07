@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #081b29;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #8a2be2;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
