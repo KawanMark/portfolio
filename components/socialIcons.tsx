@@ -9,7 +9,7 @@ type IconButtonProps = {
 
 export default function IconButton({ children, text, color, link, ...props }: IconButtonProps) {
   const [hovered, setHovered] = useState(false);
-  const ref = useRef(null);
+  const ref = useRef<HTMLSpanElement>(null); 
 
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
