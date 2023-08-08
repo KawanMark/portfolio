@@ -54,9 +54,6 @@ export default function Home() {
               <IconButton text="Github" link="https://github.com/KawanMark" color="bg-gray-600">
                 <GitHub size={20} />
               </IconButton>
-              <IconButton text="Facebook" color="bg-blue-500" link="https://www.facebook.com/kawan.Mark.zZ">
-                <Facebook size={20} />
-              </IconButton>
               <IconButton
                 text="Instagram"
                 color="bg-gradient-to-tr from-yellow-500 to-purple-500 via-pink-500"
